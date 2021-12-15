@@ -1,0 +1,147 @@
+body {
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+header {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: -webkit-linear-gradient(top, #43915a, #c5edd1 30%, #43915a);
+  background: -moz-linear-gradient(top, #43915a, #c5edd1 30%, #43915a);
+  background: -o-linear-gradient(top, #43915a, #c5edd1 30%, #43915a);
+  background: linear-gradient(top, #43915a, #c5edd1 30%, #43915a);
+  padding: 10px;
+  overflow: hidden;
+}
+
+header h1 {
+  width: 100%;
+  text-align: center;
+  /* color: #000;
+  text-shadow: 2px 2px 2px #43915a; */
+  font-size: 2.5em;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: #000;
+  text-shadow: 2px 2px 2px #43915a;
+}
+
+header nav {
+  width: 60%;
+  float: right;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-right: 120px;
+}
+
+nav ul li {
+  display: inline-block;
+  float: right;
+  margin: 20px;
+  font-size: 1.7em;
+}
+
+nav ul li a {
+  color: #edfff3;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffbf91;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p{
+  font-size: 1.3em;
+}
+
+section{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #43915a;
+  padding: 5px;
+  overflow: hidden;
+}
+
+article h3{
+  font-size: 1.3em;
+  padding: 20px;
+}
+
+aside{
+  clear: both;
+  height: auto;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+aside img{
+  width: 20px;
+}
+
+aside ul{
+  list-style-position: inside;
+  text-align: center;
+  /* list-style-type: none; */
+  padding: 0;
+}
+
+footer{
+  clear: both;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  margin-top: 0;
+  background-color: #43915a;
+  color: #c5edd1;
+  text-align: center;
+}
+
+article{
+  width: 96%;
+  height: auto;
+  margin: 20px, 10px;
+  padding: 20px;
+}
+
+#brisbane{
+  border: 3px solid #ffbf91;
+  border-radius: 10px;
+  background-image: url(../images/brisbane.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+}
+#melbourne{
+  border: 3px solid #ffbf91;
+  border-radius: 10px;
+  background-image: url(../images/melbourne.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+}
+#goldcoast{
+  border: 3px solid #ffbf91;
+  border-radius: 10px;
+  background-image: url(../images/goldcoast.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+
+}
+#canberra{
+  border: 3px solid #ffbf91;
+  border-radius: 10px;
+  background-image: url(../images/canberra.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: contain;
+}
